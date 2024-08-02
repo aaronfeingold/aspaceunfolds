@@ -12,3 +12,8 @@ const initialState: DataState = {
   status: "idle",
   error: null,
 };
+
+export const fetchData = createAsyncThunk("data/fetchData", async () => {
+  const response = await axios.get("./public/data.json");
+  return response.data;
+});
