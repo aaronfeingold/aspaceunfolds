@@ -1,0 +1,61 @@
+{
+  "canonicalLink": "http://www.ines-yupanqui.com",
+  "profileName": "A Space Unfolds",
+  "emailAddress": "inesita@gmail.com",
+  "socialMediaLinks": [
+    {
+      "name": "linkedIn",
+      "href": "https://www.linkedin.com/in/ines-yupanqui7a5a4a16/"
+    }
+  ],
+  "portfoliolinks": [
+    {
+      "href": "https://open.spotify.com/episode/4jZ8yxuAjtfpZ2rm902mAF",
+      "text": "Political Hope (Podcast Episode 101): Radical Architecture with Ines Yupanqui (spotify.com)"
+    }
+  ],
+  "profileSummary": "architect, visionary, civil leader",
+  "profileContent": [
+    "Inspired by Edo Japan and the architecture of the future, Ines Yupanqui is a visionary architect and civil leader. She is the founder of A Space Unfolds, a design firm that specializes in creating spaces that are both beautiful and functional. Ines is also a civil leader who is passionate about creating a more sustainable and equitable world. She is a member of the American Institute of Architects and has been recognized for her work in the field of architecture. Ines is a graduate of the University of California, Berkeley, where she earned a degree in architecture. She lives in San Francisco with her husband and two children."
+  ],
+  "metaData": [
+    {
+      "property": "og:site_name",
+      "content": "A Space Unfolds"
+    },
+    {
+      "property": "og:title",
+      "content": "A Space Unfolds"
+    },
+    {
+      "property": "og:url",
+      "content": "http://www.aspaceunfolds.com"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "itemprop": "name",
+      "content": "A Space Unfolds"
+    },
+    {
+      "itemprop": "url",
+      "content": "http://www.ines-yupanqui.com"
+    },
+    {
+      "name": "twitter:title",
+      "content": "A Space Unfolds"
+    },
+    {
+      "name": "twitter:url",
+      "content": "http://www.ines-yupanqui.com"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary"
+    }
+  ],
+  "underConstruction": false,
+  "underConstructionMessage": "Thanks for visiting! This site is under construction at the moment. Please check back soon for updates."
+}
