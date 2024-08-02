@@ -10,11 +10,11 @@ interface DataState {
 const initialState: DataState = {
   data: null,
   status: "idle",
-  error: null,
+  error: undefined,
 };
 
 export const fetchData = createAsyncThunk("data/fetchData", async () => {
-  const response = await axios.get("./public/data.json");
+  const response = await axios.get("/data.json");
   return response.data;
 });
 
