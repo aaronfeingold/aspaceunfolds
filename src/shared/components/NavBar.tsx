@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { Bars4Icon } from "@heroicons/react/24/outline";
 
 const NavBar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,7 +39,7 @@ const NavBar: React.FC = () => {
           </div>
           <div className="-mr-2 flex md:hidden">
             <button className="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-gray-600 focus:outline-none">
-              <MenuIcon className="h-6 w-6" />
+              <Bars4Icon className="h-6 w-6" />
             </button>
           </div>
         </div>
