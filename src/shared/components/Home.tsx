@@ -34,7 +34,6 @@ const Home: React.FC = () => {
             "Website Under Construction. Please Check Back for Updates"}
         </p>
       </main>
-      <Footer />
     </div>
   );
 };
