@@ -1,24 +1,43 @@
 import React from "react";
+import { FiLinkedin, FiInstagram } from "react-icons/fi";
+
+const socialLinks = [
+  {
+    id: 0,
+    icon: <FiLinkedin />,
+    url: "https://www.linkedin.com/in/",
+  },
+  {
+    id: 1,
+    icon: <FiInstagram />,
+    url: "https://www.instagram.com/in/",
+  },
+];
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-white">
-      <div className="max-w-7xl mx-auto py-4 px-4 overflow-hidden sm:px-6 lg:px-8">
-        <div className="flex justify-center space-x-6">
-          <a
-            href="https://www.linkedin.com/in/ines-yupanqui7a5a4a16/"
-            className="text-gray-400 hover:text-gray-500"
-          >
-            <span className="sr-only">LinkedIn</span>
-            <img
-              src="/path/to/linkedin.png"
-              alt="LinkedIn"
-              className="h-6 w-6"
-            />
-          </a>
+    <div className="container mx-auto">
+      <div className="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">
+        {/* Footer social links */}
+        <div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
+          <p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">
+            Follow The Creative Process
+          </p>
+          <ul className="flex gap-4 sm:gap-8">
+            {socialLinks.map((link) => (
+              <a
+                href={link.url}
+                target="__blank"
+                key={link.id}
+                className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
+              >
+                <i className="text-xl sm:text-2xl md:text-3xl">{link.icon}</i>
+              </a>
+            ))}
+          </ul>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
