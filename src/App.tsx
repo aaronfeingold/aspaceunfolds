@@ -1,13 +1,20 @@
 import React from "react";
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import NavBar from "./shared/components/NavBar";
+import Footer from "./shared/components/Footer";
+import Home from "./shared/components/Home";
 
 const App: React.FC = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-500">
-        Hello, I am Ines Yupanqui
-      </h1>
-    </div>
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<div>About Page Coming Soon</div>} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 };
 
