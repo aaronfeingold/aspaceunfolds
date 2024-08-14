@@ -39,7 +39,7 @@ const Home: React.FC = () => {
       <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative px-3 py-1 text-sm leading-6 text-gray-600">
-            Comming soon...
+            Coming soon...
           </div>
         </div>
         <div className="text-center">
